@@ -1,0 +1,25 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Toulouse"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [1.4442, 43.6047]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Lyon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.8357, 45.7640]
+      }
+    }
+  ]
+}
