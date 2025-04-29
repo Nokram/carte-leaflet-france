@@ -73,7 +73,7 @@
     const div = L.DomUtil.create('div', 'leaflet-bar leaflet-control leaflet-control-custom');
     div.innerHTML = '<button title="Charger GeoJSON">📂</button>';
     div.onclick = function () {
-      const url = 'https://raw.githubusercontent.com/TON_UTILISATEUR/carte-leaflet-france/main/donnees/communes.geojson';
+      const url = 'https://raw.githubusercontent.com/nokram/carte-leaflet-france/main/donnees/communes.geojson';
       chargerGeoJSON(url);
     };
     return div;
